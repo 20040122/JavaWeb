@@ -27,19 +27,6 @@ public class studentUpdateServlet extends HttpServlet {
         StudentDao dao = new StudentDao();
         dao.update(student);
         resp.sendRedirect("StudentDel.jsp");
-
-        PrintWriter out = resp.getWriter();
-
-        out.println("<!DOCTYPE html>");
-        out.println("<html>");
-        out.println("<head>");
-        out.println("<meta charset=\"utf-8\">");
-        out.println("<title></title>");
-        out.println("</head>");
-        out.println("<body>");
-        out.println("</body>");
-        out.println("</html>");
-        out.close();
     }
 
     @Override

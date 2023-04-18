@@ -86,5 +86,4 @@ public class FoodDao {
             BaseDao.closeAll(conn, stmt, rs);
         }
     }
-
 }

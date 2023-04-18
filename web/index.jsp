@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <a href="./Login.jsp">登录</a>
   </body>
 </html>
